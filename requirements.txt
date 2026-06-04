@@ -1,0 +1,2 @@
+# Streamlit is the required frontend stack for this prototype.
+streamlit==1.58.0

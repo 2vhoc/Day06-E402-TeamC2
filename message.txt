@@ -1,0 +1,624 @@
+{
+  "drugs": [
+    {
+      "name": "Paracetamol",
+      "purpose": "Giảm đau và hạ sốt",
+      "common_side_effects": ["Buồn nôn", "Phát ban da"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu triệu chứng trở nên nghiêm trọng hơn hoặc không cải thiện"],
+      "special_population_warning": ["Cần thận trọng khi sử dụng cho trẻ em, người cao tuổi, phụ nữ mang thai hoặc đang cho con bú"]
+    },
+    {
+      "name": "Amoxicillin",
+      "purpose": "Kháng sinh dùng để điều trị nhiễm khuẩn",
+      "common_side_effects": ["Tiêu chảy", "Buồn nôn", "Phát ban da"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị tiêu chảy nặng, phát ban, sưng phù hoặc khó thở"],
+      "special_population_warning": ["Chỉ sử dụng theo chỉ định của bác sĩ, đặc biệt đối với trẻ em, phụ nữ mang thai hoặc đang cho con bú"]
+    },
+    {
+      "name": "Cetirizine",
+      "purpose": "Giảm các triệu chứng dị ứng",
+      "common_side_effects": ["Buồn ngủ", "Khô miệng", "Chóng mặt"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu triệu chứng dị ứng nghiêm trọng hoặc xuất hiện khó thở"],
+      "special_population_warning": ["Có thể gây buồn ngủ nhiều hơn ở người cao tuổi"]
+    },
+    {
+      "name": "Ibuprofen",
+      "purpose": "Thuốc chống viêm không steroid (NSAID) dùng để giảm đau, giảm viêm và hạ sốt",
+      "common_side_effects": ["Buồn nôn", "Khó tiêu", "Tiêu chảy", "Đau đầu", "Chóng mặt", "Phát ban"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị đau bụng dữ dội, phân đen, nôn ra máu, khó thở hoặc sưng mặt/môi/lưỡi"],
+      "special_population_warning": ["Tránh sử dụng nếu bị loét dạ dày, bệnh thận, bệnh tim, hen suyễn hoặc đang mang thai; cần thận trọng ở người cao tuổi"]
+    },
+    {
+      "name": "Loratadine",
+      "purpose": "Giảm triệu chứng dị ứng (thuốc kháng histamin thế hệ 2)",
+      "common_side_effects": ["Đau đầu", "Buồn ngủ", "Mệt mỏi", "Khô miệng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu xuất hiện phát ban, nổi mề đay, khó thở hoặc khó nuốt, hoặc sưng mắt/mặt/môi/lưỡi"],
+      "special_population_warning": ["Thận trọng nếu bị suy gan nặng hoặc động kinh; có thể ảnh hưởng đến kết quả xét nghiệm dị ứng"]
+    },
+    {
+      "name": "Omeprazole",
+      "purpose": "Thuốc ức chế bơm proton dùng để điều trị ợ nóng, khó tiêu và giảm tiết axit dạ dày",
+      "common_side_effects": ["Đau đầu", "Đau bụng", "Buồn nôn", "Nôn", "Táo bón", "Tiêu chảy", "Tăng đầy hơi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị tiêu chảy nặng kéo dài, vàng mắt/vàng da, đau khớp, phát ban ở vùng da tiếp xúc ánh nắng hoặc có dấu hiệu dị ứng"],
+      "special_population_warning": ["Sử dụng lâu dài (trên 1 năm) có thể làm tăng nguy cơ thiếu vitamin B12, gãy xương và bệnh thận; cần thận trọng ở người cao tuổi"]
+    },
+    {
+      "name": "Loperamide",
+      "purpose": "Thuốc chống tiêu chảy dùng để điều trị phân lỏng",
+      "common_side_effects": ["Chóng mặt", "Buồn ngủ", "Khô miệng", "Đau bụng", "Buồn nôn", "Nôn"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị đau bụng dữ dội, chướng bụng, táo bón, tim đập nhanh/bất thường hoặc tiêu chảy nặng hơn"],
+      "special_population_warning": ["Không dùng nếu có phân lẫn máu, sốt cao hoặc viêm dạ dày ruột do vi khuẩn; không vượt quá liều khuyến cáo vì có nguy cơ gây biến chứng tim mạch nghiêm trọng; không dùng cho trẻ dưới 3 tuổi"]
+    },
+    {
+      "name": "Metformin",
+      "purpose": "Thuốc điều trị đái tháo đường type 2 và đái tháo đường thai kỳ",
+      "common_side_effects": ["Cảm giác buồn nôn", "Nôn", "Tiêu chảy", "Đau bụng", "Chán ăn", "Vị kim loại trong miệng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị mệt mỏi cực độ, thở nhanh/nông, cảm thấy lạnh, nhịp tim chậm, vàng mắt/vàng da hoặc khó thở"],
+      "special_population_warning": ["Có thể làm tăng nguy cơ thiếu vitamin B12; nguy cơ hạ đường huyết khi dùng cùng các thuốc điều trị tiểu đường khác; thận trọng nếu bị bệnh thận hoặc gan"]
+    },
+    {
+      "name": "Diphenhydramine",
+      "purpose": "Thuốc kháng histamin gây buồn ngủ dùng cho dị ứng, sốt cỏ khô, côn trùng đốt và mất ngủ ngắn hạn",
+      "common_side_effects": ["Buồn ngủ", "Chóng mặt", "Khô miệng", "Khó tập trung", "Mất thăng bằng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị khó thở, sưng họng/môi/lưỡi, phát ban nặng, lú lẫn hoặc ngất xỉu"],
+      "special_population_warning": ["Không dùng cho trẻ dưới 16 tuổi để hỗ trợ giấc ngủ; gây buồn ngủ đáng kể; không lái xe nếu cảm thấy buồn ngủ hoặc chóng mặt; có thể gây buồn ngủ nhiều hơn ở người cao tuổi"]
+    },
+    {
+      "name": "Codeine",
+      "purpose": "Thuốc giảm đau nhóm opioid dùng cho đau vừa đến nặng và tiêu chảy",
+      "common_side_effects": ["Táo bón", "Buồn nôn", "Buồn ngủ", "Chóng mặt", "Đau đầu", "Lú lẫn", "Mệt mỏi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị khó thở, thở ngắn/nông, cứng cơ, chóng mặt nghiêm trọng hoặc ngất"],
+      "special_population_warning": ["Không phù hợp cho trẻ dưới 12 tuổi; tránh dùng nếu bị các vấn đề về hô hấp, tắc ruột hoặc đang cho con bú; có thể gây lệ thuộc nếu sử dụng kéo dài"]
+    },
+    {
+      "name": "Ciprofloxacin",
+      "purpose": "Kháng sinh fluoroquinolone phổ rộng dùng điều trị các nhiễm khuẩn (đường tiết niệu, hô hấp, da, xương, bệnh lây truyền qua đường tình dục, tai và mắt)",
+      "common_side_effects": ["Buồn nôn", "Tiêu chảy", "Mệt mỏi", "Cảm giác châm chích hoặc nóng rát tạm thời ở mắt"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có thay đổi tâm trạng/hành vi, mệt mỏi nghiêm trọng, lo âu, trầm cảm, cơn hoảng loạn, lú lẫn, đau hoặc sưng cơ/gân/khớp, ù tai hoặc thay đổi thị lực"],
+      "special_population_warning": ["Có thể làm giảm sự tỉnh táo; không lái xe cho đến khi cảm thấy bình thường; các vấn đề về gân có thể xảy ra trong vòng 48 giờ hoặc nhiều tháng sau khi ngừng thuốc; thận trọng ở người cao tuổi hoặc đang dùng steroid"]
+    },
+    {
+      "name": "Azithromycin",
+      "purpose": "Kháng sinh nhóm macrolid dùng điều trị các nhiễm khuẩn (viêm phổi, viêm phế quản, viêm xoang, viêm tai, nhiễm trùng da và bệnh lây truyền qua đường tình dục)",
+      "common_side_effects": ["Buồn nôn", "Nôn", "Tiêu chảy", "Thay đổi vị giác", "Khó chịu dạ dày", "Táo bón", "Chóng mặt", "Phát ban da"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu nhịp tim nhanh/bất thường, vàng mắt/vàng da, phân nhạt màu kèm nước tiểu sẫm màu, đau bụng dữ dội, ù tai hoặc giảm thính lực"],
+      "special_population_warning": ["Có thể gây thay đổi điện tâm đồ (ECG) và ảnh hưởng đến gan; có thể làm tăng nguy cơ cháy nắng nên cần dùng kem chống nắng; giảm thính lực hiếm gặp thường có tính tạm thời; thận trọng nếu bị bệnh gan hoặc tim"]
+    },
+    {
+    "name": "Atorvastatin",
+    "purpose": "Thuốc statin dùng để giảm cholesterol và phòng ngừa bệnh tim mạch, nhồi máu cơ tim và đột quỵ",
+    "common_side_effects": [
+      "Đau đầu",
+      "Buồn nôn",
+      "Khó tiêu",
+      "Tiêu chảy",
+      "Chảy máu cam",
+      "Đau họng",
+      "Các triệu chứng giống cảm lạnh",
+      "Táo bón",
+      "Đầy hơi"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ ngay nếu có đau cơ, yếu cơ, chuột rút không rõ nguyên nhân, vàng mắt/vàng da, phân nhạt màu, nước tiểu sẫm màu, đau bụng dữ dội, phát ban ở lòng bàn tay/lòng bàn chân, ho kèm khó thở hoặc yếu tay chân"
+    ],
+    "special_population_warning": [
+      "Uống nhiều rượu thường xuyên có thể làm tăng nguy cơ tác dụng phụ và tổn thương gan; thận trọng nếu mắc bệnh gan, đái tháo đường hoặc có tiền sử gia đình mắc bệnh lý cơ"
+    ]
+    },
+    {
+    "name": "Etoricoxib (Roticox 90mg film-coated tablets)",
+    "purpose": "Thuốc chống viêm không steroid (NSAID) dùng để giảm đau và viêm, bao gồm đau cơ xương khớp và viêm khớp",
+    "common_side_effects": [
+      "Đau đầu",
+      "Chóng mặt",
+      "Khó tiêu",
+      "Đau bụng",
+      "Buồn nôn",
+      "Phù nề",
+      "Tăng huyết áp"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ nếu bị đau ngực, khó thở, đau bụng dữ dội, phân đen, sưng mặt/môi/lưỡi hoặc có dấu hiệu dị ứng"
+    ],
+    "special_population_warning": [
+      "Cần đặc biệt thận trọng nếu mắc bệnh tim mạch, tăng huyết áp, bệnh thận, loét dạ dày hoặc đang mang thai"
+    ]
+    },
+    {
+    "name": "Glucosamin (Crystalline Glucosamine sulfate sodium chloride 1884 mg) (Viatril-S 1500mg)",
+    "purpose": "Thực phẩm bổ sung hỗ trợ sức khỏe khớp và giảm triệu chứng thoái hóa khớp",
+    "common_side_effects": [
+      "Buồn nôn",
+      "Khó chịu dạ dày",
+      "Tiêu chảy",
+      "Táo bón",
+      "Ợ nóng"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ nếu xuất hiện triệu chứng dị ứng, đau bụng dữ dội hoặc triệu chứng trở nên nặng hơn"
+    ],
+    "special_population_warning": [
+      "Thận trọng nếu dị ứng với hải sản, mắc đái tháo đường hoặc đang mang thai/cho con bú"
+    ]
+    },
+    {
+    "name": "Mecobalamin (Methylcobalamin Capsules 1500mcg)",
+    "purpose": "Dạng vitamin B12 dùng để điều trị thiếu vitamin B12 và hỗ trợ chức năng thần kinh",
+    "common_side_effects": [
+      "Buồn nôn",
+      "Tiêu chảy",
+      "Chán ăn",
+      "Phát ban da"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ nếu xuất hiện phát ban, ngứa, sưng phù hoặc các triệu chứng dị ứng"
+    ],
+    "special_population_warning": [
+      "Cần thận trọng nếu có tiền sử dị ứng với các chế phẩm chứa cobalamin (vitamin B12)"
+    ]
+    },
+    {
+    "name": "Pregabalin (Lyrica 75mg)",
+    "purpose": "Thuốc điều trị đau thần kinh, động kinh và một số trường hợp rối loạn lo âu",
+    "common_side_effects": [
+      "Buồn ngủ",
+      "Chóng mặt",
+      "Nhìn mờ",
+      "Tăng cân",
+      "Phù nề",
+      "Khô miệng"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ ngay nếu có thay đổi tâm trạng, ý nghĩ tự tử, phù nề nghiêm trọng, khó thở hoặc phát ban"
+    ],
+    "special_population_warning": [
+      "Có thể làm giảm sự tỉnh táo; tránh lái xe hoặc vận hành máy móc nếu buồn ngủ hoặc chóng mặt; thận trọng ở người cao tuổi và người mắc bệnh thận"
+    ]
+    },
+    {
+    "name": "Lansoprazole 30mg (Scolanzo 30mg)",
+    "purpose": "Thuốc ức chế bơm proton dùng để điều trị trào ngược dạ dày thực quản, loét dạ dày tá tràng và giảm tiết axit dạ dày",
+    "common_side_effects": [
+      "Đau đầu",
+      "Tiêu chảy",
+      "Táo bón",
+      "Buồn nôn",
+      "Đau bụng",
+      "Đầy hơi"
+    ],
+    "doctor_contact_warning": [
+      "Liên hệ bác sĩ nếu bị tiêu chảy kéo dài, đau bụng dữ dội, phát ban, vàng mắt/vàng da hoặc có dấu hiệu dị ứng"
+    ],
+    "special_population_warning": [
+      "Sử dụng lâu dài có thể làm tăng nguy cơ hạ magie máu, thiếu vitamin B12, gãy xương và các vấn đề về thận"
+    ]
+    },
+    {
+      "name": "Metoclopramide",
+      "purpose": "Thuốc chống nôn và kích thích vận động dạ dày - ruột",
+      "common_side_effects": ["Buồn ngủ", "Mệt mỏi", "Tiêu chảy", "Bồn chồn"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu xuất hiện cử động cơ không kiểm soát (biểu hiện ngoại tháp), co thắt cơ mặt hoặc chóng mặt nghiêm trọng"],
+      "special_population_warning": ["Không dùng cho trẻ em dưới 1 tuổi; thận trọng ở người cao tuổi, người suy thận hoặc có tiền sử trầm cảm"]
+    },
+    {
+      "name": "Salbutamol (Albuterol)",
+      "purpose": "Thuốc giãn phế quản điều trị hoặc ngăn ngừa co thắt phế quản ở người bệnh hen suyễn hoặc COPD",
+      "common_side_effects": ["Run tay", "Đau đầu", "Tim đập nhanh", "Căng thẳng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị khó thở đột ngột sau khi dùng thuốc, đau ngực hoặc nhịp tim quá nhanh, bất thường"],
+      "special_population_warning": ["Thận trọng nếu bị bệnh tim mạch, tăng huyết áp, cường giáp hoặc đái tháo đường"]
+    },
+    {
+      "name": "Clopidogrel",
+      "purpose": "Thuốc chống kết tập tiểu cầu giúp ngăn ngừa cục máu đông ở người bệnh tim, đột quỵ",
+      "common_side_effects": ["Dễ bị bầm tím", "Chảy máu cam", "Tiêu chảy", "Đau bụng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu chảy máu không cầm được, phân có máu hoặc đen như hắc ín, nôn ra máu hoặc có dấu hiệu xuất huyết dưới da"],
+      "special_population_warning": ["Thận trọng ở người suy gan nặng, người có nguy cơ chảy máu cao (như loét dạ dày) hoặc sắp phẫu thuật"]
+    },
+    {
+      "name": "Prednisolone",
+      "purpose": "Thuốc corticosteroid kháng viêm, chống dị ứng và ức chế miễn dịch",
+      "common_side_effects": ["Tăng thèm ăn", "Tăng cân", "Khó ngủ", "Thay đổi tâm trạng", "Khó tiêu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu có dấu hiệu nhiễm trùng (sốt, đau họng kéo dài), đau xương dữ dội, thay đổi thị lực hoặc sưng phù chân"],
+      "special_population_warning": ["Sử dụng lâu dài có thể gây hội chứng Cushing, loãng xương, chậm lớn ở trẻ em; không tự ý ngừng thuốc đột ngột"]
+    },
+    {
+      "name": "Amlodipine",
+      "purpose": "Thuốc chẹn kênh canxi dùng để điều trị tăng huyết áp và đau thắt ngực",
+      "common_side_effects": ["Phù cổ chân/bàn chân", "Đau đầu", "Chóng mặt", "Đỏ bừng mặt", "Mệt mỏi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu đau ngực nghiêm trọng hơn hoặc xuất hiện nhịp tim nhanh, đánh trống ngực đột ngột"],
+      "special_population_warning": ["Thận trọng ở người bị suy giảm chức năng gan, hẹp động mạch chủ hoặc người cao tuổi"]
+    },
+    {
+      "name": "Simvastatin",
+      "purpose": "Thuốc statin dùng để hạ cholesterol xấu (LDL) và chất béo trung tính, phòng ngừa bệnh tim mạch",
+      "common_side_effects": ["Đau đầu", "Đau bụng", "Táo bón", "Buồn nôn"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có biểu hiện đau cơ, yếu cơ không rõ nguyên nhân (nguy cơ tiêu cơ vân), vàng da hoặc nước tiểu sẫm màu"],
+      "special_population_warning": ["Không dùng cho phụ nữ mang thai hoặc đang cho con bú; tránh uống nước ép bưởi chùm khi dùng thuốc"]
+    },
+    {
+      "name": "Spironolactone",
+      "purpose": "Thuốc lợi tiểu tiết kiệm kali dùng điều trị tăng huyết áp, phù do suy tim hoặc xơ gan",
+      "common_side_effects": ["Buồn ngủ", "Đau đầu", "Tăng kali máu", "Rối loạn tiêu hóa"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị chuột rút nghiêm trọng, nhịp tim chậm/bất thường, mệt mỏi cơ nghiêm trọng (dấu hiệu tăng kali)"],
+      "special_population_warning": ["Không dùng cho người suy thận nặng hoặc mạn tính; cần kiểm tra định kỳ nồng độ kali máu"]
+    },
+    {
+      "name": "Allopurinol",
+      "purpose": "Thuốc giảm nồng độ axit uric trong máu dùng để ngăn ngừa các cơn gút cấp và sỏi thận",
+      "common_side_effects": ["Buồn nôn", "Tiêu chảy", "Tăng nhẹ men gan"],
+      "doctor_contact_warning": ["Ngừng thuốc và liên hệ bác sĩ ngay lập tức nếu xuất hiện phát ban da, nổi mề đay hoặc sốt (nguy cơ hội chứng sụp đổ da Stevens-Johnson nghiêm trọng)"],
+      "special_population_warning": ["Cần uống nhiều nước trong ngày; thận trọng ở người có tổn thương chức năng thận hoặc gan"]
+    },
+    {
+      "name": "Bisoprolol",
+      "purpose": "Thuốc chẹn beta dùng để điều trị tăng huyết áp, đau thắt ngực và suy tim mạn tính ổn định",
+      "common_side_effects": ["Mệt mỏi", "Chóng mặt", "Lạnh tay chân", "Buồn nôn", "Huyết áp thấp"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu nhịp tim trở nên quá chậm (dưới 50 lần/phút), khó thở nặng lên hoặc tăng cân đột ngột do giữ nước"],
+      "special_population_warning": ["Không tự ý ngưng thuốc đột ngột vì có thể làm trầm trọng hơn tình trạng bệnh tim; thận trọng ở người bị hen suyễn hoặc đái tháo đường"]
+    },
+    {
+      "name": "Levothyroxine",
+      "purpose": "Hormone tuyến giáp tổng hợp dùng để điều trị chứng suy giáp",
+      "common_side_effects": ["Hầu như không có nếu dùng đúng liều; nếu quá liều có thể gây tim đập nhanh, sụt cân, vã mồ hôi, run tay"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu có dấu hiệu cường giáp do quá liều như đau ngực, nhịp tim nhanh hoặc vã mồ hôi nhiều"],
+      "special_population_warning": ["Liều lượng cần được điều chỉnh chính xác dựa trên xét nghiệm máu định kỳ; thận trọng ở người cao tuổi hoặc người có bệnh mạch vành"]
+    },
+    {
+      "name": "Acyclovir",
+      "purpose": "Thuốc kháng virus dùng để điều trị nhiễm virus Herpes simplex, thủy đậu và zona",
+      "common_side_effects": ["Buồn nôn", "Nôn", "Tiêu chảy", "Đau đầu", "Chóng mặt"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có dấu hiệu suy thận (tiểu ít, sưng chân), dễ bầm tím, xuất huyết hoặc lú lẫn"],
+      "special_population_warning": ["Cần uống nhiều nước trong thời gian dùng thuốc để tránh kết tinh ở thận; thận trọng ở người suy thận và người cao tuổi"]
+    },
+    {
+      "name": "Alprazolam",
+      "purpose": "Thuốc nhóm benzodiazepine dùng để điều trị ngắn hạn chứng rối loạn lo âu và hoảng sợ",
+      "common_side_effects": ["Buồn ngủ", "Chóng mặt", "Khô miệng", "Giảm tập trung", "Mệt mỏi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có thay đổi hành vi đột ngột, trầm cảm nặng lên, có ý nghĩ tự tử hoặc khó thở"],
+      "special_population_warning": ["Có nguy cơ gây nghiện và lệ thuộc thuốc nếu dùng kéo dài; không tự ý ngừng thuốc đột ngột vì gây hội chứng cai; gây buồn ngủ nặng"]
+    },
+    {
+      "name": "Aspirin (Acid Acetylsalicylic)",
+      "purpose": "Thuốc giảm đau, hạ sốt, chống viêm và chống kết tập tiểu cầu liều thấp để ngừa đột quỵ/nhồi máu cơ tim",
+      "common_side_effects": ["Khó tiêu", "Ợ nóng", "Buồn nôn", "Dễ bị bầm tím"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu nôn ra máu, phân đen như hắc ín, đau dạ dày dữ dội hoặc có tiếng ù tai liên tục"],
+      "special_population_warning": ["Tuyệt đối không dùng cho trẻ em và thanh thiếu niên đang bị sốt/nhiễm virus do nguy cơ mắc hội chứng Reye gây nguy hiểm tính mạng"]
+    },
+    {
+      "name": "Bromhexine",
+      "purpose": "Thuốc tiêu nhầy, làm loãng đờm trong các bệnh đường hô hấp có đờm đặc",
+      "common_side_effects": ["Rối loạn tiêu hóa nhẹ", "Buồn nôn", "Đau bụng thượng vị", "Chóng mặt"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu xuất hiện phát ban da nghiêm trọng, khó thở hoặc tổn thương niêm mạc"],
+      "special_population_warning": ["Thận trọng khi dùng cho người có tiền sử loét dạ dày tá tràng vì thuốc có thể làm ảnh hưởng đến hàng rào niêm mạc dạ dày"]
+    },
+    {
+      "name": "Captopril",
+      "purpose": "Thuốc ức chế men chuyển (ACE) dùng điều trị tăng huyết áp và suy tim",
+      "common_side_effects": ["Ho khan kéo dài", "Chóng mặt", "Thay đổi vị giác", "Phát ban da"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu xuất hiện sưng mặt, môi, lưỡi hoặc họng gây khó thở (phù mạch), hoặc vàng da"],
+      "special_population_warning": ["Không sử dụng cho phụ nữ mang thai (đặc biệt trong 3 tháng giữa và cuối thai kỳ) vì gây độc cho thai nhi"]
+    },
+    {
+      "name": "Carbamazepine",
+      "purpose": "Thuốc chống co giật điều trị bệnh động kinh và giảm đau dây thần kinh số V",
+      "common_side_effects": ["Buồn ngủ", "Chóng mặt", "Mất thăng bằng", "Buồn nôn", "Nhìn đôi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị phát ban da nghiêm trọng, sốt, đau họng, loét miệng hoặc dễ bị bầm tím (nguy cơ ức chế tủy xương)"],
+      "special_population_warning": ["Có thể gây phản ứng da nghiêm trọng (hội chứng Stevens-Johnson), đặc biệt ở người châu Á có gen HLA-B*1502; cần xét nghiệm sàng lọc trước khi dùng"]
+    },
+    {
+      "name": "Clarithromycin",
+      "purpose": "Kháng sinh nhóm macrolide điều trị nhiễm khuẩn đường hô hấp, da và phối hợp diệt vi khuẩn H.pylori dạ dày",
+      "common_side_effects": ["Tiêu chảy", "Buồn nôn", "Thay đổi vị giác (vị kim loại)", "Đau bụng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu nhịp tim nhanh/bất thường, chóng mặt nghiêm trọng, ngất xỉu hoặc tiêu chảy ra máu/chất nhầy kéo dài"],
+      "special_population_warning": ["Thận trọng ở người có tiền sử kéo dài khoảng QT (bệnh tim) hoặc người suy gan, suy thận nặng"]
+    },
+    {
+      "name": "Colchicine",
+      "purpose": "Thuốc điều trị và phòng ngừa các đợt cấp của bệnh gút (gout)",
+      "common_side_effects": ["Tiêu chảy", "Buồn nôn", "Nôn", "Đau bụng"],
+      "doctor_contact_warning": ["Ngừng thuốc và liên hệ bác sĩ ngay nếu bị tiêu chảy nặng, nôn mửa liên tục, yếu cơ hoặc tê bì ngón tay ngón chân (dấu hiệu ngộ độc)"],
+      "special_population_warning": ["Khoảng cách giữa liều điều trị và liều độc rất hẹp; tuyệt đối không tự ý tăng liều; thận trọng ở người suy gan, suy thận hoặc người cao tuổi"]
+    },
+    {
+      "name": "Dexamethasone",
+      "purpose": "Thuốc corticosteroid mạnh dùng kháng viêm, chống dị ứng và ức chế miễn dịch nặng",
+      "common_side_effects": ["Tăng cân", "Giữ nước gây phù", "Mất ngủ", "Tăng đường huyết", "Dễ nhiễm trùng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu có dấu hiệu nhiễm trùng (sốt), phân đen, yếu cơ nghiêm trọng hoặc thay đổi thị lực"],
+      "special_population_warning": ["Không được tự ý ngừng thuốc đột ngột sau khi dùng dài ngày vì có thể gây suy tuyến thượng thận cấp nguy hiểm"]
+    },
+    {
+      "name": "Diazepam",
+      "purpose": "Thuốc hướng thần nhóm benzodiazepine dùng an thần, giảm lo âu, giãn cơ và cắt cơn co giật",
+      "common_side_effects": ["Buồn ngủ", "Mệt mỏi", "Yếu cơ", "Mất điều hòa vận động"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu nhịp thở chậm, nông, lú lẫn nghiêm trọng, kích động ngược thường hoặc có ảo giác"],
+      "special_population_warning": ["Tránh xa rượu và các thuốc ức chế thần kinh khác; có nguy cơ cao gây lệ thuộc thuốc và lạm dụng thuốc; không lái xe khi dùng thuốc"]
+    },
+    {
+      "name": "Digoxin",
+      "purpose": "Thuốc trợ tim dùng cho bệnh nhân suy tim và rung nhĩ",
+      "common_side_effects": ["Chán ăn", "Buồn nôn", "Chóng mặt", "Mệt mỏi"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu nhìn thấy quầng màu vàng xanh xung quanh vật thể, nhịp tim đập quá chậm hoặc bỏ nhịp (dấu hiệu ngộ độc Digoxin)"],
+      "special_population_warning": ["Yêu cầu tuân thủ liều lượng chính xác; cần theo dõi nồng độ thuốc trong máu và nồng độ kali máu định kỳ"]
+    },
+    {
+      "name": "Domperidone",
+      "purpose": "Thuốc chống nôn, giảm triệu chứng đầy bụng, khó tiêu và trào ngược dạ dày",
+      "common_side_effects": ["Khô miệng", "Đau đầu", "Căng vú hoặc chảy sữa (hiếm gặp)"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ hoặc đi cấp cứu ngay nếu bị chóng mặt đột ngột, ngất xỉu hoặc nhịp tim đập nhanh, bất thường"],
+      "special_population_warning": ["Có nguy cơ nhỏ gây kéo dài khoảng QT và loạn nhịp tim; không dùng cho người có bệnh tim hoặc người cao tuổi ở liều cao"]
+    },
+    {
+      "name": "Enalapril",
+      "purpose": "Thuốc ức chế men chuyển (ACE) điều trị tăng huyết áp và suy tim kèm giảm triệu chứng",
+      "common_side_effects": ["Ho khan kéo dài", "Chóng mặt", "Mệt mỏi", "Huyết áp thấp khi đứng dậy"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu bị sưng mặt, môi, lưỡi, cổ họng hoặc khó nuốt/khó thở"],
+      "special_population_warning": ["Chống chỉ định tuyệt đối cho phụ nữ mang thai do nguy cơ gây dị tật bẩm sinh hoặc tử vong cho thai nhi"]
+    },
+    {
+      "name": "Esomeprazole",
+      "purpose": "Thuốc ức chế bơm proton (PPI) điều trị viêm loét dạ dày, trào ngược dạ dày thực quản (GERD)",
+      "common_side_effects": ["Đau đầu", "Tiêu chảy", "Đau bụng", "Buồn nôn", "Táo bón"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị tiêu chảy phân lỏng kéo dài kèm sốt, đau khớp mới hoặc chuyển biến nặng, sụt cân không rõ nguyên nhân"],
+      "special_population_warning": ["Dùng kéo dài có thể làm giảm hấp thu Magie và Vitamin B12, tăng nguy cơ gãy xương ở người già"]
+    },
+    {
+      "name": "Famotidine",
+      "purpose": "Thuốc kháng thụ thể H2 giúp giảm tiết axit dạ dày, trị loét và trào ngược",
+      "common_side_effects": ["Đau đầu", "Chóng mặt", "Táo bón", "Tiêu chảy"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu lú lẫn, ảo giác, lo âu (thường gặp ở người già suy thận) hoặc có biểu hiện dị ứng da nặng"],
+      "special_population_warning": ["Cần điều chỉnh giảm liều ở bệnh nhân suy thận mức độ trung bình đến nặng"]
+    },
+    {
+      "name": "Fexofenadine",
+      "purpose": "Thuốc kháng histamin thế hệ 2 không gây buồn ngủ, dùng trị viêm mũi dị ứng và mề đay",
+      "common_side_effects": ["Đau đầu", "Buồn ngủ nhẹ", "Buồn nôn", "Chóng mặt"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu phát ban, nổi mề đay nghiêm trọng, sưng tấy hoặc khó thở"],
+      "special_population_warning": ["Không uống thuốc cùng với nước ép trái cây (bưởi, cam, táo) vì có thể làm giảm sinh khả dụng và hiệu quả của thuốc"]
+    },
+    {
+      "name": "Finasteride",
+      "purpose": "Thuốc điều trị phì đại tuyến tiền liệt lành tính và chứng rụng tóc ở nam giới",
+      "common_side_effects": ["Giảm ham muốn tình dục", "Rối loạn cương dương", "Giảm thể tích xuất tinh"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu phát hiện các thay đổi ở vú như có cục u, đau, hoặc chảy dịch ở núm vú"],
+      "special_population_warning": ["Phụ nữ mang thai hoặc có thể mang thai không được chạm vào viên thuốc bị vỡ do thuốc có thể hấp thu qua da và gây dị tật cơ quan sinh dục của thai nhi nam"]
+    },
+    {
+      "name": "Fluconazole",
+      "purpose": "Thuốc kháng nấm dùng điều trị các bệnh nhiễm nấm Candida (âm đạo, miệng, họng, thực quản) và nấm hệ thống",
+      "common_side_effects": ["Buồn nôn", "Đau bụng", "Tiêu chảy", "Đau đầu", "Phát ban da"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có dấu hiệu nhiễm độc gan (vàng da/mắt, nước tiểu sẫm màu, mệt mỏi chán ăn) hoặc phát ban bong tróc da"],
+      "special_population_warning": ["Tương tác với rất nhiều loại thuốc khác; thận trọng ở người suy chức năng gan, thận hoặc có bệnh tim"]
+    },
+    {
+      "name": "Furosemide",
+      "purpose": "Thuốc lợi tiểu quai mạnh dùng để giảm phù do tim, gan hoặc thận và điều trị tăng huyết áp",
+      "common_side_effects": ["Hạ kali máu", "Mất nước", "Chóng mặt khi thay đổi tư thế", "Chuột rút", "Khô miệng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu nhịp tim bất thường, mệt mỏi cơ nghiêm trọng, ù tai hoặc giảm thính lực đột ngột"],
+      "special_population_warning": ["Có thể làm tăng axit uric máu (khởi phát cơn gút); cần theo dõi điện giải đồ (đặc biệt là kali và natri) thường xuyên"]
+    },
+    {
+      "name": "Gliclazide",
+      "purpose": "Thuốc nhóm sulfonylurea điều trị đái tháo đường type 2",
+      "common_side_effects": ["Hạ đường huyết (vã mồ hôi, run rẩy, đói cồn cào, tim đập nhanh)", "Đau bụng", "Buồn nôn"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu tình trạng hạ đường huyết nghiêm trọng gây lú lẫn, ngất xỉu hoặc xuất hiện vàng da"],
+      "special_population_warning": ["Bắt buộc phải ăn đầy đủ sau khi uống thuốc; thận trọng ở người cao tuổi, người suy gan hoặc suy thận nặng"]
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "purpose": "Thuốc lợi tiểu thiazide điều trị tăng huyết áp và phù nề do giữ nước",
+      "common_side_effects": ["Mệt mỏi", "Chóng mặt", "Hạ kali máu", "Tăng đường huyết", "Tăng axit uric"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị khô miệng nhiều, khát nước, chuột rút cơ nặng, nhịp tim nhanh hoặc đau đầu dữ dội"],
+      "special_population_warning": ["Có thể làm tăng tính nhạy cảm của da với ánh nắng mặt trời; thận trọng ở người bị gút hoặc đái tháo đường"]
+    },
+    {
+      "name": "Isosorbide Dinitrate",
+      "purpose": "Thuốc giãn mạch nhóm nitrat dùng để phòng ngừa và điều trị cơn đau thắt ngực",
+      "common_side_effects": ["Đau đầu dữ dội (thường giảm sau vài ngày), đỏ bừng mặt, chóng mặt, tụt huyết áp tư thế đứng"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu cơn đau ngực tồi tệ hơn, mạch đập quá nhanh hoặc ngất xỉu"],
+      "special_population_warning": ["Tuyệt đối không dùng chung với các thuốc điều trị rối loạn cương dương (như Sildenafil, Tadalafil) vì có thể gây tụt huyết áp nghiêm trọng đe dọa tính mạng"]
+    },
+    {
+      "name": "Ketoconazole",
+      "purpose": "Thuốc kháng nấm dùng điều trị nhiễm nấm bề mặt hoặc nấm hệ thống (hiện chủ yếu dùng ngoài da/dầu gội do độc tính)",
+      "common_side_effects": ["Buồn nôn", "Nôn", "Đau bụng", "Ngứa rát da (khi dùng dạng bôi)"],
+      "doctor_contact_warning": ["Nếu dùng đường uống: ngừng thuốc và báo bác sĩ ngay nếu chán ăn, vàng da, nước tiểu sẫm màu, phân nhạt màu (nguy cơ độc gan nặng)"],
+      "special_population_warning": ["Đường uống có nguy cơ gây độc cho gan rất cao nên chỉ dùng khi không có biện pháp thay thế; dạng bôi ngoài da ít hấp thu vào máu"]
+    },
+    {
+      "name": "Levofloxacin",
+      "purpose": "Kháng sinh nhóm fluoroquinolone điều trị viêm phổi, nhiễm trùng đường tiết niệu phức tạp và nhiễm trùng da",
+      "common_side_effects": ["Buồn nôn", "Tiêu chảy", "Đau đầu", "Khó ngủ"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu đau, sưng hoặc đứt gân (gân gót Achilles), có triệu chứng thần kinh như co giật, ảo giác, tê bì tay chân"],
+      "special_population_warning": ["Tránh tiếp xúc trực tiếp với tia UV; có thể gây hạ đường huyết nghiêm trọng ở bệnh nhân tiểu đường đang dùng thuốc hạ đường huyết"]
+    },
+    {
+      "name": "Losartan",
+      "purpose": "Thuốc chẹn thụ thể angiotensin II (ARB) điều trị tăng huyết áp và bảo vệ thận ở người tiểu đường type 2",
+      "common_side_effects": ["Chóng mặt", "Mệt mỏi", "Huyết áp thấp", "Tăng kali máu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có dấu hiệu sưng mặt, môi, họng gây khó nuốt hoặc khó thở, hoặc thiểu niệu"],
+      "special_population_warning": ["Chống chỉ định cho phụ nữ mang thai; không nên dùng chung với các thực phẩm bổ sung chứa kali mà không có chỉ định"]
+    },
+    {
+      "name": "Meloxicam",
+      "purpose": "Thuốc kháng viêm không steroid (NSAID) giảm đau và viêm trong bệnh viêm khớp dạng thấp, thoái hóa khớp",
+      "common_side_effects": ["Khó tiêu", "Buồn nôn", "Đau bụng", "Tiêu chảy", "Đau đầu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu đau bụng dữ dội, nôn ra máu, phân đen, khó thở hoặc sưng phù chân nặng"],
+      "special_population_warning": ["Có thể làm tăng nguy cơ huyết khối tim mạch, nhồi máu cơ tim hoặc đột quỵ nếu dùng liều cao kéo dài; không dùng cho người loét dạ dày tiến triển"]
+    },
+    {
+      "name": "Methyldopa",
+      "purpose": "Thuốc hạ huyết áp tác dụng lên thần kinh trung ương, thường dùng điều trị tăng huyết áp cho phụ nữ mang thai",
+      "common_side_effects": ["Buồn ngủ", "Chóng mặt", "Khô miệng", "Mệt mỏi", "Nhức đầu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị sốt không rõ nguyên nhân, vàng da/mắt, mệt mỏi cực độ hoặc có biểu hiện thiếu máu"],
+      "special_population_warning": ["Có thể gây xét nghiệm Coombs dương tính giả và ảnh hưởng chức năng gan; cần theo dõi công thức máu và men gan"]
+    },
+    {
+      "name": "Metronidazole",
+      "purpose": "Thuốc kháng khuẩn, kháng động vật nguyên sinh điều trị nhiễm khuẩn kị khí, nhiễm trùng roi âm đạo, amip và giardia",
+      "common_side_effects": ["Vị kim loại khó chịu trong miệng", "Buồn nôn", "Chán ăn", "Đau đầu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu xuất hiện triệu chứng thần kinh như co giật, tê bì, châm chích ở tay chân hoặc lú lẫn"],
+      "special_population_warning": ["Tuyệt đối không uống rượu bia trong thời gian dùng thuốc và ít nhất 3 ngày sau khi ngừng thuốc do nguy cơ xảy ra phản ứng disulfiram (nôn mửa, tim đập nhanh, đỏ bừng mặt)"]
+    },
+    {
+      "name": "Montelukast",
+      "purpose": "Thuốc đối kháng thụ thể leukotriene dùng để dự phòng và điều trị hen suyễn mạn tính, giảm triệu chứng viêm mũi dị ứng",
+      "common_side_effects": ["Đau đầu", "Đau bụng", "Ho", "Triệu chứng giống cảm cúm"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có thay đổi hành vi/tâm trạng nghiêm trọng như kích động, trầm cảm, lo âu, có giấc mơ bất thường hoặc ý nghĩ tự tử"],
+      "special_population_warning": ["Thuốc dùng để kiểm soát hen lâu dài, không có tác dụng cắt cơn hen cấp tính; cần giám sát chặt chẽ biểu hiện tâm thần kinh"]
+    },
+    {
+      "name": "Nifedipine",
+      "purpose": "Thuốc chẹn kênh canxi điều trị tăng huyết áp và dự phòng đau thắt ngực ổn định",
+      "common_side_effects": ["Đỏ bừng mặt", "Đau đầu", "Phù cổ chân/bàn chân", "Táo bón", "Đánh trống ngực"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu cơn đau ngực tăng lên về tần suất hoặc mức độ nghiêm trọng sau khi bắt đầu dùng thuốc"],
+      "special_population_warning": ["Không dùng dạng phóng thích nhanh để hạ huyết áp cấp cứu vì có thể gây tụt huyết áp quá nhanh dẫn đến thiếu máu cơ tim hoặc não"]
+    },
+    {
+      "name": "Nitroglycerin",
+      "purpose": "Thuốc giãn mạch nhóm nitrat giúp cắt cơn đau thắt ngực nhanh chóng (dạng ngậm dưới lưỡi hoặc xịt)",
+      "common_side_effects": ["Đau đầu, chóng mặt, đỏ bừng mặt, hạ huyết áp tư thế đứng, tim đập nhanh"],
+      "doctor_contact_warning": ["Báo bác sĩ hoặc cấp cứu nếu đau ngực không giảm sau khi dùng liều đầu tiên (hoặc sau tối đa 3 liều, cách nhau mỗi 5 phút)"],
+      "special_population_warning": ["Cấm dùng chung với thuốc cường dương (nhóm ức chế PDE5); khi dùng dạng ngậm dưới lưỡi, bệnh nhân nên ngồi hoặc nằm xuống để tránh ngã do tụt huyết áp"]
+    },
+    {
+      "name": "Nystatin",
+      "purpose": "Thuốc kháng nấm chủ yếu điều trị nhiễm nấm Candida ở niêm mạc (miệng, ruột, âm đạo)",
+      "common_side_effects": ["Kích ứng tại chỗ (dạng đặt/bôi), buồn nôn, tiêu chảy (nếu uống liều rất lớn)"],
+      "doctor_contact_warning": ["Ngừng sử dụng và báo bác sĩ nếu xảy ra kích ứng da nghiêm trọng, phát ban hoặc sưng phù niêm mạc"],
+      "special_population_warning": ["Thuốc hầu như không hấp thu qua da và niêm mạc vào máu nên rất ít tác dụng phụ toàn thân; không dùng trị nấm hệ thống"]
+    },
+    {
+      "name": "Oloxacin",
+      "purpose": "Kháng sinh nhóm fluoroquinolone điều trị nhiễm trùng đường tiết niệu, viêm phế quản và nhiễm trùng da",
+      "common_side_effects": ["Buồn nôn, tiêu chảy, đau đầu, chóng mặt, khó ngủ"],
+      "doctor_contact_warning": ["Ngừng thuốc ngay và báo bác sĩ nếu bị đau, sưng gân, yếu cơ, tê bì tay chân hoặc thay đổi thị lực"],
+      "special_population_warning": ["Thận trọng ở bệnh nhân có tiền sử động kinh hoặc rối loạn thần kinh trung ương; giảm liều ở người suy thận"]
+    },
+    {
+      "name": "Pantoprazole",
+      "purpose": "Thuốc ức chế bơm proton (PPI) điều trị trào ngược dạ dày, loét dạ dày tá tràng và hội chứng Zollinger-Ellison",
+      "common_side_effects": ["Đau đầu, tiêu chảy, đau bụng, đầy hơi, buồn nôn, táo bón"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu bị tiêu chảy nặng kéo dài, đau khớp, phát ban da vùng hở, sụt cân đột ngột"],
+      "special_population_warning": ["Có thể làm tăng nguy cơ nhiễm trùng tiêu hóa (như nhiễm Clostridioides difficile) do làm giảm axit dạ dày"]
+    },
+    {
+      "name": "Phosphalugel (Aluminium phosphate)",
+      "purpose": "Thuốc kháng axit (antacid) dạng gel giúp giảm nhanh chứng đau, nóng rát dạ dày do thừa axit",
+      "common_side_effects": ["Táo bón (đặc biệt ở người cao tuổi hoặc người uống ít nước)"],
+      "doctor_contact_warning": ["Báo bác sĩ nếu triệu chứng đau bụng không thuyên giảm sau 7 ngày dùng thuốc hoặc kèm theo sốt, nôn mửa"],
+      "special_population_warning": ["Có thể làm cản trở hấp thu của nhiều thuốc khác; nên uống cách các thuốc khác ít nhất 2 tiếng đồng hồ"]
+    },
+    {
+      "name": "Ranitidine",
+      "purpose": "Thuốc kháng thụ thể H2 giúp giảm tiết axit dịch vị, điều trị loét dạ dày và trào ngược (Lưu ý: Nhiều nước đã thu hồi do tạp chất, cần cân nhắc lâm sàng)",
+      "common_side_effects": ["Đau đầu, chóng mặt, tiêu chảy hoặc táo bón nhẹ"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu có dấu hiệu dị ứng nghiêm trọng, nhịp tim chậm, mệt mỏi bất thường hoặc vàng da"],
+      "special_population_warning": ["Cần lưu ý thông tin cập nhật của cơ quan quản lý dược phẩm do lo ngại về tạp chất NDMA trong một số chế phẩm trước đây"]
+    },
+    {
+      "name": "Sildenafil",
+      "purpose": "Thuốc ức chế PDE5 điều trị rối loạn cương dương hoặc tăng áp lực động mạch phổi",
+      "common_side_effects": ["Đau đầu, đỏ bừng mặt, khó tiêu, nghẹt mũi, thay đổi thị giác tạm thời (nhìn mờ, thấy màu xanh lam)"],
+      "doctor_contact_warning": ["Đi cấp cứu ngay nếu tình trạng cương cứng kéo dài trên 4 tiếng (nguy cơ tổn thương vĩnh viễn) hoặc mất thị lực/thính lực đột ngột"],
+      "special_population_warning": ["Chống chỉ định tuyệt đối với người đang dùng bất kỳ thuốc chứa nitrat hữu cơ nào do nguy cơ hạ huyết áp gây tử vong"]
+    },
+    {
+      "name": "Sucralfate",
+      "purpose": "Thuốc bảo vệ niêm mạc dạ dày, tạo màng bọc cơ học xung quanh ổ loét để tổn thương mau lành",
+      "common_side_effects": ["Táo bón, khô miệng, đầy hơi, khó tiêu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu triệu chứng đau dạ dày nặng hơn hoặc xuất hiện khó nuốt, nôn ra máu"],
+      "special_population_warning": ["Nên uống thuốc vào lúc đói (1 tiếng trước bữa ăn hoặc trước khi đi ngủ); thận trọng ở bệnh nhân suy thận mạn do nguy cơ tích lũy nhôm"]
+    },
+    {
+      "name": "Tamsulosin",
+      "purpose": "Thuốc chẹn thụ thể alpha-1 giúp giãn cơ bàng quang và tuyến tiền liệt, cải thiện dòng tiểu ở nam giới phì đại tuyến tiền liệt",
+      "common_side_effects": ["Chóng mặt, đau đầu, xuất tinh ngược dòng, nghẹt mũi, tụt huyết áp tư thế"],
+      "doctor_contact_warning": ["Báo bác sĩ ngay nếu bị ngất xỉu hoặc nếu bạn sắp phẫu thuật đục thủy tinh thể (nguy cơ hội chứng mống mắt nhẽo trong phẫu thuật)"],
+      "special_population_warning": ["Nên dùng thuốc sau bữa ăn cố định trong ngày (thường là bữa ăn sáng hoặc bữa đầu tiên trong ngày) để giảm nguy cơ chóng mặt"]
+    },
+    {
+      "name": "Valsartan",
+      "purpose": "Thuốc đối kháng thụ thể angiotensin II (ARB) điều trị tăng huyết áp, suy tim và sau nhồi máu cơ tim",
+      "common_side_effects": ["Chóng mặt, hạ huyết áp, tăng kali máu, suy giảm chức năng thận nhẹ"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có biểu hiện phù mạch (sưng mặt, môi, họng), mệt mỏi cơ dữ dội (tăng kali máu nặng)"],
+      "special_population_warning": ["Chống chỉ định cho phụ nữ mang thai; cần kiểm tra chức năng thận và nồng độ kali máu thường xuyên trong quá trình điều trị"]
+    },
+    {
+      "name": "Seotolac (Etodolac)",
+      "purpose": "Thuốc kháng viêm không steroid (NSAID) dùng để giảm đau và viêm trong các bệnh lý xương khớp",
+      "common_side_effects": ["Khó tiêu", "Đau bụng", "Buồn nôn", "Chóng mặt", "Đau đầu"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu có dấu hiệu xuất huyết tiêu hóa (phân đen, nôn ra máu), đau bụng dữ dội hoặc khó thở"],
+      "special_population_warning": ["Chống chỉ định ở người loét dạ dày tá tràng tiến triển; thận trọng ở người có bệnh lý tim mạch, suy gan hoặc suy thận"]
+    },
+    {
+      "name": "Độc hoạt tang ký sinh (Độc hoạt TKS)",
+      "purpose": "Bài thuốc đông y/thuốc từ dược liệu dùng để trừ phong thấp, bồi bổ can thận, ích khí dưỡng huyết, trị đau nhức xương khớp và đau thần kinh tọa",
+      "common_side_effects": ["Hiếm gặp; có thể gây rối loạn tiêu hóa nhẹ hoặc nóng trong ở người mẫn cảm"],
+      "doctor_contact_warning": ["Báo bác sĩ nếu xuất hiện các triệu chứng dị ứng, phát ban da hoặc tình trạng đau nhức tăng lên bất thường"],
+      "special_population_warning": ["Thận trọng hoặc tham khảo ý kiến thầy thuốc khi dùng cho phụ nữ có thai hoặc người có thể trạng âm hư nội nhiệt"]
+    },
+    {
+      "name": "Đại tần giao",
+      "purpose": "Bài thuốc đông y/thuốc từ dược liệu dùng để phát tán phong thấp, thanh nhiệt, dưỡng huyết, trị chứng phong thấp, đau nhức tay chân, co quắp cơ khớp",
+      "common_side_effects": ["Hiếm gặp; rối loạn tiêu hóa nhẹ ở người có hệ tiêu hóa yếu"],
+      "doctor_contact_warning": ["Ngừng dùng và báo thầy thuốc nếu xuất hiện phát ban, nổi mề đay hoặc các triệu chứng dị ứng khác"],
+      "special_population_warning": ["Cần sử dụng theo đúng chỉ định và bốc thuốc tại cơ sở y học cổ truyền uy tín; thận trọng với phụ nữ có thai"]
+    },
+    {
+      "name": "Tavanic (Levofloxacin)",
+      "purpose": "Kháng sinh nhóm fluoroquinolone phổ rộng điều trị nhiễm khuẩn hô hấp, tiết niệu, sinh dục và da",
+      "common_side_effects": ["Buồn nôn", "Tiêu chảy", "Đau đầu", "Khó ngủ"],
+      "doctor_contact_warning": ["Ngừng thuốc ngay và báo bác sĩ nếu bị đau, sưng hoặc đứt gân; có triệu chứng thần kinh (co giật, ảo giác, tê bì) hoặc tiêu chảy nặng"],
+      "special_population_warning": ["Tránh tiếp xúc trực tiếp với tia UV/ánh nắng; thận trọng ở người có tiền sử co giật hoặc rối loạn gân cơ"]
+    },
+    {
+      "name": "Ameflu Day Time (Paracetamol + Phenylephrine + Dextromethorphan)",
+      "purpose": "Thuốc phối hợp điều trị các triệu chứng cảm cúm như sốt, đau đầu, đau mình, ngạt mũi, chảy nước mũi và ho khan",
+      "common_side_effects": ["Bồn chồn", "Mất ngủ", "Chóng mặt", "Khô miệng", "Buồn nôn nhẹ"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu xuất hiện nhịp tim nhanh, đánh trống ngực, tăng huyết áp đột ngột hoặc các dấu hiệu dị ứng da nặng"],
+      "special_population_warning": ["Không dùng chung với các thuốc khác chứa paracetamol; thận trọng ở người tăng huyết áp, bệnh mạch vành, cường giáp hoặc đái tháo đường"]
+    },
+    {
+      "name": "Vitacap",
+      "purpose": "Hỗn hợp vitamin và khoáng chất giúp bổ sung vi chất, bồi bổ cơ thể và nâng cao sức đề kháng",
+      "common_side_effects": ["Hiếm gặp; có thể có rối loạn tiêu hóa nhẹ hoặc nước tiểu màu vàng sẫm"],
+      "doctor_contact_warning": ["Báo bác sĩ nếu xuất hiện các biểu hiện mẫn cảm hoặc dị ứng với bất kỳ thành phần nào của chế phẩm"],
+      "special_population_warning": ["Không sử dụng quá liều khuyến cáo hàng ngày; thận trọng ở người có tình trạng tăng canxi máu hoặc sỏi thận"]
+    },
+    {
+      "name": "Xypenat",
+      "purpose": "Dung dịch nước biển sâu xịt mũi giúp làm sạch niêm mạc, giảm nghẹt mũi, sổ mũi và hỗ trợ điều trị viêm mũi, viêm xoang",
+      "common_side_effects": ["Hầu như không có; có thể gây cảm giác xót nhẹ tại chỗ trong vài lần đầu sử dụng"],
+      "doctor_contact_warning": ["Báo bác sĩ nếu tình trạng kích ứng mũi kéo dài hoặc triệu chứng viêm mũi xoang chuyển biến nặng hơn"],
+      "special_population_warning": ["An toàn khi sử dụng lâu dài; chú ý vệ sinh đầu xịt sau mỗi lần sử dụng để tránh nhiễm khuẩn"]
+    },
+    {
+      "name": "Pivalone (Tixocortol)",
+      "purpose": "Thuốc kháng viêm corticosteroid dùng tại chỗ dưới dạng xịt mũi để điều trị các tình trạng viêm mũi dị ứng, viêm mũi vận mạch",
+      "common_side_effects": ["Kích ứng niêm mạc mũi tạm thời", "Khô mũi", "Chảy máu cam nhẹ (hiếm gặp)"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ nếu xuất hiện phản ứng dị ứng toàn thân hoặc tình trạng nhiễm trùng vùng mũi họng tiến triển"],
+      "special_population_warning": ["Không dùng kéo dài liên tục mà không có chỉ định kiểm tra của bác sĩ; thận trọng nếu có tổn thương niêm mạc mũi chưa lành"]
+    },
+    {
+      "name": "Baciamin Plus (Bacillus clausii + Bacillus subtilis)",
+      "purpose": "Men vi sinh (probiotic) giúp bổ sung lợi khuẩn, cân bằng hệ vi sinh đường ruột và hỗ trợ điều trị rối loạn tiêu hóa",
+      "common_side_effects": ["Hiếm gặp; có thể xuất hiện phản ứng mẫn cảm nhẹ như phát ban da ở người cơ địa dị ứng"],
+      "doctor_contact_warning": ["Báo bác sĩ nếu các triệu chứng rối loạn tiêu hóa (tiêu chảy) không cải thiện sau vài ngày sử dụng thuốc"],
+      "special_population_warning": ["Thận trọng và cần dùng cách xa thời gian uống các thuốc kháng sinh khoảng 2 tiếng đồng hồ"]
+    },
+    {
+      "name": "PROHEPATIS (Ursodeoxycholic acid)",
+      "purpose": "Thuốc điều trị bệnh gan mật mật, giúp hòa tan sỏi mật cholesterol và hỗ trợ cải thiện chức năng gan trong các bệnh gan mạn tính",
+      "common_side_effects": ["Phân lỏng", "Tiêu chảy", "Đau bụng vùng thượng vị hoặc hạ sườn phải"],
+      "doctor_contact_warning": ["Liên hệ bác sĩ ngay nếu tiêu chảy nặng kéo dài hoặc các triệu chứng bệnh gan (vàng da, ngứa) chuyển biến xấu đột ngột"],
+      "special_population_warning": ["Cần kiểm tra định kỳ các chỉ số men gan trong quá trình dùng thuốc; không dùng nếu bị tắc nghẽn đường mật hoàn toàn"]
+    },
+    {
+      "name": "Rodogyl (Spiramycin + Metronidazole)",
+      "purpose": "Kháng sinh phối hợp điều trị các nhiễm trùng răng miệng cấp tính, mạn tính hoặc tái phát như áp xe răng, viêm nướu, viêm nha chu",
+      "common_side_effects": ["Rối loạn tiêu hóa (buồn nôn, tiêu chảy), vị kim loại trong miệng, chán ăn, nổi mề đay"],
+      "doctor_contact_warning": ["Ngừng thuốc và báo bác sĩ ngay nếu xuất hiện triệu chứng thần kinh như chóng mặt, mất điều hòa vận động, lú lẫn hoặc tê bì tay chân"],
+      "special_population_warning": ["Tuyệt đối không uống rượu bia trong thời gian dùng thuốc do phản ứng disulfiram; thận trọng ở người có tiền sử rối loạn huyết học"]
+    }
+  ]
+}

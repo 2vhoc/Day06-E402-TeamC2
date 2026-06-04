@@ -1,0 +1,4 @@
+.env
+base/
+__pycache__/
+*.py[cod]
