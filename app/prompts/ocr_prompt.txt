@@ -1,0 +1,32 @@
+Extract medication information from this prescription image.
+
+Return medicine names exactly as written when possible, but write dose, frequency, and duration in Vietnamese.
+
+Return only valid JSON with this schema:
+
+{
+  "confidence": "high",
+  "medications": [
+    {
+      "name": "Paracetamol",
+      "dose": "500mg",
+      "frequency": "2 lần/ngày",
+      "duration": "5 ngày"
+    }
+  ]
+}
+
+Vietnamese formatting examples:
+
+- "2 times per day" -> "2 lần/ngày"
+- "once daily" -> "1 lần/ngày"
+- "after meals" -> "sau ăn"
+- "before meals" -> "trước ăn"
+- "5 days" -> "5 ngày"
+
+If the prescription is unclear or you are not confident, return:
+
+{
+  "confidence": "low",
+  "medications": []
+}
